@@ -1,0 +1,63 @@
+body{
+	color: white;
+}
+
+
+.header{
+	margin-left: 40px;
+}
+
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; /* Green */
+    height: 45px;
+    line-height: 45px;
+  	text-align: center;
+    margin: 25px;
+}
+
+.button:hover {
+    background-color: darkgrey; /* blue */
+    color: black;
+}
+
+
+div.links{
+	margin-left: 20px;
+}
+
+div.links > a {
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 25%;
+    text-align: center;
+}
+
+div.description > h3{
+
+	 text-align: center;
+}
+
+div.description > div.coloumns {
+	margin-left: 8em;
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 35%;
+    text-align: center;
+}
+
+.footer{
+	text-align: center;
+
+}
+
+
+
+
+
